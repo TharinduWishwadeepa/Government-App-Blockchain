@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding-bottom: 100px; /* Set a padding-bottom value equal to or greater than the height of the footer */
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  color: #555;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-text {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.heart {
+  color: red;
+}

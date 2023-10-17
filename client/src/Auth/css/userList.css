@@ -1,0 +1,45 @@
+.user-list-container {
+  text-align: center;
+}
+
+.user-list-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.total-users {
+  margin-left: 10px;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+  font-weight: bold;
+}
+.user-table td {
+  white-space: nowrap; /* Prevent line breaks within table cells */
+}
+
+.delete-button {
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #e62020;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c61b1b;
+}

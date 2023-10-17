@@ -1,0 +1,54 @@
+.add-passport-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.add-passport-info h1 {
+  margin-bottom: 20px;
+}
+
+.add-passport-info form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.add-passport-info .form-group {
+  margin-bottom: 15px;
+}
+
+.add-passport-info label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.add-passport-info input[type="text"],
+.add-passport-info input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-passport-info button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-passport-info button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
